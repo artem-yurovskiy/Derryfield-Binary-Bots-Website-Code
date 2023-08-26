@@ -1,0 +1,702 @@
+/* -------------- */
+/* Navigation Bar */
+/* -------------- */
+
+.home_nav {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), 40%, rgba(255, 255, 255, 0.01), 85%, rgb(0, 0, 0)), url(Images/team_photo.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 43vw;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.other_team_name,
+.home_team_name {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-right: 0.2em;
+    z-index: 1;
+}
+
+#home_active,
+#team_active,
+#seasons_active,
+#contact_active {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+
+.instagram-logo {
+    color: rgb(165, 17, 45);
+    font-size: 2.3rem;
+    transform: translateY(2px);
+}
+
+.not_active_link {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.not_active_link::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    bottom: 8px;
+    left: 6px;
+    background-color: rgb(165, 17, 45);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.not_active_link:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: lightgrey;
+    color: black;
+    margin-top: auto;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(48, 48, 48);
+}
+
+#footer_instagram {
+    font-size: 1.5em;
+}
+
+/* --------- */
+/* Home Page */
+/* --------- */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.team_number {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    text-align: center;
+    font-size: 24vw;
+    font-weight: 900;
+    color: rgb(255, 255, 255, 0.9);
+}
+
+.home_content {
+    width: 100%;
+}
+
+.about_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50vh;
+}
+
+.about_layout {
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 5em;
+    color: rgb(165, 17, 45);
+}
+
+.about_layout p {
+    font-size: 1.4em;
+}
+
+.learn_more {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+.learn_more:hover {
+    color: rgb(131, 131, 131);
+    text-decoration: underline;
+}
+
+
+.about_FTC_title {
+    font-size: 4em;
+}
+
+.about_FTC {
+    padding-bottom: 20vw;
+}
+
+
+
+/* --------- */
+/* Team Page */
+/* --------- */
+
+.other_nav {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.line_break {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.line {
+    width: 95%;
+    height: 1px;
+    border-top: 1px solid rgb(69, 68, 68);
+}
+
+
+.team_page_section {
+    width: 100%;
+    padding-bottom: 10em;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 4em 0 4em;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+
+.member {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 380px;
+    height: auto;
+    border: 2px solid rgb(165, 17, 45);
+    border-radius: 5%;
+    margin: 2em 0.5em 0em 0.5em;
+}
+
+.member_layout {
+    width: 90%;
+
+}
+
+.member img {
+    width: 100%;
+    margin: 5% 0 2.5% 0;
+    border-radius: 5%;
+}
+
+.team_header,
+.seasons_header {
+    text-align: center;
+    font-size: 7em;
+    padding: 0.7em 0.5em 0em 0.5em;
+    color: white;
+    font-weight: 900
+}
+
+.member_description {
+    color: rgb(229, 229, 229);
+    margin-bottom: 1.2em;
+}
+
+.name {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.job {
+    font-size: 1.2em;
+}
+
+
+/* Contact Us Page */
+
+.form_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 4em 4em 10em 4em;
+
+}
+
+.form_layout {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    border: 1px solid white;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.2);
+}
+
+.inner_form_layout {
+    width: 80%;
+}
+
+.form_layout h2 {
+    margin-bottom: 2%;
+}
+
+.full_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_name,
+.last_name {
+    width: 49%;
+}
+
+.full_name input,
+.email {
+    height: 40px;
+}
+
+.email,
+.message,
+form button,
+.full_name input {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+form {
+    font-size: 15px;
+    line-height: 2.3em;
+}
+
+form button {
+    background-color: rgb(165, 17, 45);
+    color: white;
+    margin-top: 0.5%;
+}
+
+.first_name,
+.last_name,
+.email_form,
+.message_form {
+    margin-bottom: 2.5%;
+}
+
+
+
+/* ------------ */
+/* Seasons Page */
+/* ------------ */
+
+.seasons_section {
+    margin-bottom: 7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.seasons_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.season {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+}
+
+
+.season:first-child {
+    margin-bottom: 12vw;
+}
+
+.season_content {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-right: 7%;
+}
+
+.next_season {
+    padding-right: 0%;
+}
+
+.season_title {
+    font-weight: 700;
+    color: rgb(165, 17, 45);
+    font-size: 4em;
+    padding-bottom: 0.8em;
+    align-self: center;
+}
+
+.season_text {
+    color: white;
+}
+
+.event_location {
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: 1em;
+}
+
+.awards {
+    margin-left: 2.5em;
+    font-size: 1.1em;
+}
+
+.awards>div {
+    margin: 1em 0 1em 0;
+}
+
+.unreleased {
+    font-size: 4em;
+    padding-top: 1em;
+    text-align: center;
+    color: white;
+}
+
+.robot_image {
+    margin-right: 5em;
+    width: 40em;
+}
+
+.next_image {
+    margin-right: 0;
+}
+
+/* ------------ */
+/* Success Page */
+/* ------------ */
+
+.contact-successful {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-successful-layout {
+    width: 50em;
+    border: 3px solid rgb(165, 17, 45);
+    color: white;
+    margin: 8vw 7% 20vw 7%;
+    padding: 3em;
+
+}
+
+.contact-successful-header {
+    color: white;
+    font-size: 6em;
+    font-weight: 700;
+}
+
+.contact-successful-text {
+    font-size: 2.5em;
+}
+
+
+
+
+/* --------------- */
+/* Responsive Code */
+/* --------------- */
+
+
+@media(max-width: 1200px) {
+    .robot_image {
+        width: 50vw;
+    }
+
+    .unreleased {
+        font-size: 5vw;
+    }
+
+    .event_location {
+        font-size: 2.2vw;
+    }
+
+    .awards {
+        font-size: 1.6vw;
+    }
+
+    .home_nav {
+        height: 65vw;
+    }
+
+    .team_number {
+        margin-top: 32%;
+        font-size: 27vw;
+    }
+
+    .about_FTC {
+        padding-top: 32vw;
+        padding-bottom: 27vw;
+
+    }
+}
+
+@media(max-width: 991px) {
+    .home_team_name {
+        font-size: 6vw;
+    }
+
+    .not_active_link:hover::after {
+        transform: scaleX(0);
+    }
+
+    #home_active,
+    #team_active,
+    #seasons_active,
+    #contact_active {
+        text-decoration: none;
+    }
+
+    .instagram-logo {
+        display: none;
+    }
+
+    .nav_links {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .nav_links a {
+        color: white !important;
+    }
+
+    .team_header {
+        font-size: 10vw;
+    }
+
+    .team_page_section {
+        padding-bottom: 2vw;
+    }
+
+    .full_name {
+        flex-direction: column;
+    }
+
+    .first_name,
+    .last_name {
+        width: 100%;
+    }
+
+    .home_nav {
+        height: 76vw;
+    }
+
+    .team_number {
+        margin-top: 45%;
+    }
+
+    .about_section {
+        padding-top: 42vw;
+    }
+
+    .about_FTC {
+        padding-top: 32vw;
+        padding-bottom: 30vh;
+    }
+
+    .season_title {
+        font-size: 7vw;
+    }
+
+    .seasons_header {
+        font-size: 15vw;
+    }
+
+    .contact-successful-layout {
+        padding: 5%;
+    }
+
+    .contact-successful-header {
+        font-size: 10vw;
+    }
+
+    .contact-successful-text {
+        font-size: 4vw;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .about_title {
+        font-size: 13vw;
+    }
+
+    .about_FTC_title {
+        font-size: 11vw;
+    }
+
+    .about_FTC_title img {
+        width: 27vw;
+    }
+
+    .member {
+        width: 40vw;
+    }
+
+    .team {
+        margin: 0 1em 0 1em;
+    }
+
+    .line_break {
+        display: none;
+    }
+
+    .form_layout {
+        box-shadow: none;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .form_div {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0px;
+    }
+
+
+    .season {
+        margin-bottom: 15vw;
+    }
+
+    .season:first-child {
+        margin-bottom: 19vw;
+    }
+
+    .seasons_div {
+        margin-top: 7em;
+    }
+
+    .robot_image {
+        margin-right: 2em;
+    }
+
+    .event_location {
+        font-size: 2.4vw;
+    }
+
+    .awards {
+        font-size: 1.8vw;
+    }
+
+    .team_number {
+        margin-top: 40%;
+    }
+
+    .about_section {
+        padding-top: 14vh;
+    }
+
+    .about_FTC {
+        padding-top: 22vh;
+        padding-bottom: 23vh;
+    }
+
+
+}
+
+
+@media(max-width: 575px) {
+    .about_layout p {
+        font-size: 1em;
+    }
+
+    .name {
+        font-size: 4.3vw;
+    }
+
+    .job {
+        font-size: 3.6vw;
+    }
+
+    .other_team_name {
+        font-size: 6.8vw;
+    }
+
+    .about_section {
+        padding-top: 10vh;
+    }
+
+    .about_FTC {
+        padding-top: 15vh;
+        padding-bottom: 17vh;
+    }
+
+    .season_content {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .robot_image {
+        width: 80vw;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .event_location {
+        font-size: 6vw;
+        margin-top: 0.5em;
+    }
+
+    .awards {
+        margin-left: 2.5em;
+        font-size: 4vw;
+    }
+
+    .awards>div {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    .season {
+        margin-bottom: 15vw;
+    }
+}

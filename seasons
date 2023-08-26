@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derryfield Binary Bots - FTC 12758</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a38d3f025f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-black other_nav">
+        <div class="container-fluid mb-auto navigation_layout">
+            <a class="navbar-brand text-primary other_team_name" href="/">Derryfield Binary Bots</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb">
+                    <li class="nav-item  navigation_link nav_links">
+                        <a class="nav-link text-primary not_active_link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item navigation_link nav_links">
+                        <a id="seasons_active" class="nav-link text-primary"
+                            href="seasons">Seasons</a>
+                    </li>
+                    <li class="nav-item navigation_link nav_links">
+                        <a class="nav-link text-primary not_active_link" href="team">Team</a>
+                    </li>
+                    <li class="nav-item navigation_link nav_links">
+                        <a class="nav-link text-primary not_active_link" href="contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item other_links nav_links">
+                        <a href="https://www.instagram.com/derryfield.robotics/"><i
+                                class="fa-brands fa-instagram instagram-logo"
+                                href="https://www.instagram.com/derryfield.robotics/"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="seasons_section">
+        <div class="line_break">
+            <div class="line"></div>
+        </div>
+
+        <div>
+            <h2 class="seasons_header">Seasons</h2>
+        </div>
+
+        <div class="seasons_div">
+
+
+            <div class="season">
+                <h2 class="season_title">2023-2024 CENTERSTAGE</h2>
+                <div class="season_content next_season">
+                    <img class="robot_image next_image" src="Images/seasons/2023-2024 CENTERSTAGE/CENTERSTAGE.png"
+                        alt="">
+                    <div class="unreleased">COMING SOON</div>
+                </div>
+            </div>
+
+
+            <div class="season">
+                <h2 class="season_title">2022-2023 POWERPLAY</h2>
+                <div class="season_content">
+                    <img class="robot_image" src="Images/seasons/2022-2023 POWERPLAY/PPRobot.png" alt="">
+                    <div class="season_text">
+                        <div class="event_location">NH State Championship:</div>
+                        <div class="awards">
+                            <div>3rd Place Connect Award</div>
+                            <div>2nd Place Control Award</div>
+                            <div>2nd Place Design Award</div>
+                            <div>Winning Alliance 1st Pick</div>
+                        </div>
+
+                        <div class="event_location">Alvirne Qualifier:</div>
+                        <div class="awards">
+                            <div>Finalist Alliance Captain</div>
+                        </div>
+
+                        <div class="event_location">Windham Qualifier:</div>
+                        <div class="awards">
+                            <div>3rd Place Inspire Award</div>
+                            <div>1st Place Motivate Award</div>
+                            <div>Finalist Alliance 1st Pick</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="season">
+                <h2 class="season_title">2021-2022 Freight Frenzy</h2>
+                <div class="season_content">
+                    <img class="robot_image" src="Images/seasons/2021-2022 Freight Frenzy/FFRobot.png" alt="">
+                    <div class="season_text">
+                        <div class="event_location">NH State Championship:</div>
+                        <div class="awards">
+                            <div>2nd Place Promote Award</div>
+                        </div>
+
+                        <div class="event_location">Merrimack Qualifier:</div>
+                        <div class="awards">
+                            <div>1st Place Promote Award</div>
+                            <div>1st Place Think Award</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="season">
+                <h2 class="season_title">2020-2021 Ultimate Goal</h2>
+                <div class="season_content">
+                    <img class="robot_image" src="Images/seasons/2020-2021 Ultimate Goal/UGRobot.png" alt="">
+                    <div class="season_text">
+                        <div class="event_location">Remote Qualifier</div>
+                        <div class="awards">
+                            <div>1st Place Design Award</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="season">
+                <h2 class="season_title">2019-2020 Skystone</h2>
+                <div class="season_content">
+                    <img class="robot_image" src="Images/seasons/2019-2020 Skystone/SSRobot.png" alt="">
+                    <div class="season_text">
+                        <div class=" event_location">Merrimack Qualifier</div>
+                        <div class="awards">
+                            <div>Winning Alliance 1st Pick</div>
+                        </div>
+
+                        <div class="event_location">Hudson Qualifier</div>
+                        <div class="awards">
+                            <div>1st Place Connect Award</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <footer>
+        <div class=" footer">
+            <a href="/">Home</a>
+            <a href="seasons">Seasons</a>
+            <a href="team">Team</a>
+            <a href="contact">Contact Us</a>
+            <div>
+                <a href="https://www.instagram.com/derryfield.robotics/"><i class="fa-brands fa-instagram"
+                        id="footer_instagram" href="https://www.instagram.com/derryfield.robotics/"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="Bootstrap/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
